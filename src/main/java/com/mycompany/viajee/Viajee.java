@@ -134,7 +134,9 @@ public class Viajee {
         boolean salir = true;
         
         do {
-        
+        System.out.println();
+        System.out.println();
+        System.out.println("########### MENU ##################");
         System.out.println("Ingrese la opcion que desea:");
         System.out.print("1 - Viaje terrestre: ");
         System.out.print("2 - Viaje aereo: ");
@@ -146,6 +148,7 @@ public class Viajee {
                System.out.println("***************Viaje Terrestre******************"); 
                 te.iDatos();
                 te.setvehiculo();
+                System.out.println();
                 te.mDatos();
                 System.out.println("Total del viaje terrestre es = "+ te.getTotal()) ;
                 break;
@@ -153,6 +156,7 @@ public class Viajee {
                 System.out.println("***************Viaje Aereo******************");
                 ae.iDatos();
                 ae.setMaleta();
+                System.out.println();
                 ae.mDatos();
                 System.out.println("Total del viaje aereo es = "+ ae.getTotal()) ;
                 break;
